@@ -1,4 +1,4 @@
-# eslint-plugin-nadeem
+# eslint-plugin-ncl
 
 Restricts the usage of color literals in *.js and *.jsx
 
@@ -10,21 +10,21 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-nadeem`:
+Next, install `eslint-plugin-ncl`:
 
 ```
-$ npm install eslint-plugin-nadeem --save-dev
+$ npm install eslint-plugin-ncl --save-dev
 ```
 
 
 ## Usage
 
-Add `nadeem` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `ncl` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "nadeem"
+        "ncl"
     ]
 }
 ```
@@ -35,7 +35,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "nadeem/rule-name": 2
+        "ncl/rule-name": 2
     }
 }
 ```
